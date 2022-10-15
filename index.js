@@ -19,8 +19,7 @@ async function callHttpbin() { // added async and fixed typo
         resolve(myips) // added myips to resolve
       });
      }
-    );
-  
+    );  
 });
 result = await promise; // removed let
 return result; // this should read return result
